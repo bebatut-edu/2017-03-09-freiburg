@@ -12,7 +12,7 @@ humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2017-03-09      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2017-03-10        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Bérénice Batut", "Björn Grüning", "Julien Maupetit", "William Durand"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["TBA"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["commons@tailordev.fr", "berenice.batut@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad: "https://semestriel.framapad.org/p/sc-workshop-freiburg-1" # optional: URL for the workshop Etherpad if there is one
 eventbrite: "31898812206"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -180,7 +180,7 @@ eventbrite: "31898812206"          # optional: alphanumeric key for Eventbrite r
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 -->
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Schedule (for information purposes only)</h2>
 
 <!-- DO NOT EDIT SURVEY LINKS -->
 <p><em>Surveys</em></p>
@@ -192,23 +192,24 @@ eventbrite: "31898812206"          # optional: alphanumeric key for Eventbrite r
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
+      <tr> <td>09:00</td>  <td>Getting started with UNIX</td> </tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>14:00</td>  <td>Git: from zero to hero!</td> </tr>
+      <tr> <td>15:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>17:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>19:00</td>  <td>Social event</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
+      <tr> <td>09:00</td>  <td>Python</td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>14:00</td>  <td>Python</td> </tr>
+      <tr> <td>15:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>17:00</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
 </div>
@@ -231,7 +232,7 @@ eventbrite: "31898812206"          # optional: alphanumeric key for Eventbrite r
 <p id="etherpad">
   <strong>Etherpad:</strong> <a href="{{page.etherpad}}">{{page.etherpad}}</a>.
   <br/>
-  We will use this Etherpad for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this Etherpad for chatting, taking notes and sharing URLs.
 </p>
 {% endif %}
 
@@ -325,6 +326,7 @@ eventbrite: "31898812206"          # optional: alphanumeric key for Eventbrite r
       <li><a href="{{site.swc_pages}}/git-novice/reference/">Reference...</a></li>
     </ul>
   </div>
+<!--
   <div class="col-md-6">
     <h3 id="syllabus-sql">Managing Data with SQL</h3>
     <ul>
@@ -340,6 +342,7 @@ eventbrite: "31898812206"          # optional: alphanumeric key for Eventbrite r
     </ul>
   </div>
 </div>
+-->
 
 <hr/>
 
@@ -587,7 +590,7 @@ eventbrite: "31898812206"          # optional: alphanumeric key for Eventbrite r
     <a href="http://python.org">Python</a> is a popular language for
     research computing, and great for general-purpose programming as
     well.  Installing all of its research packages individually can be
-    a bit difficult, so we recommend
+    a bit difficult, so we (Software Carpentry) recommend
     <a href="https://www.continuum.io/anaconda">Anaconda</a>,
     an all-in-one installer.
   </p>
